@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F5B353B1ED644800076DA2E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B353A1ED644800076DA2E /* main.cpp */; };
+		5F5B35431ED645F30076DA2E /* Cookie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B35411ED645F30076DA2E /* Cookie.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5F5B35371ED644800076DA2E /* cookies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cookies; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5B353A1ED644800076DA2E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5F5B35411ED645F30076DA2E /* Cookie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cookie.cpp; sourceTree = "<group>"; };
+		5F5B35421ED645F30076DA2E /* Cookie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cookie.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5F5B353A1ED644800076DA2E /* main.cpp */,
+				5F5B35411ED645F30076DA2E /* Cookie.cpp */,
+				5F5B35421ED645F30076DA2E /* Cookie.hpp */,
 			);
 			path = cookies;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F5B353B1ED644800076DA2E /* main.cpp in Sources */,
+				5F5B35431ED645F30076DA2E /* Cookie.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
